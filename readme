@@ -1,0 +1,8 @@
+// require() é a forma do Node.js de carregar bibliotecas externas.
+//() => é chamado de função de seta, ou arrow function em JavaScript.
+//req Request Cliente → Servidor → Manda informações para o servidor
+//res	Response	Servidor → Cliente	Envia resposta de volta ao cliente
+// listen=escutar --escutar a porta 3000
+// variaveis const geralmente tem o nome em maiusculo
+//mock - giria para mocar dados
+// [] - array
