@@ -1,8 +1,53 @@
+
+// from → diz de onde esse algo vem
 // require() é a forma do Node.js de carregar bibliotecas externas.
 //() => é chamado de função de seta, ou arrow function em JavaScript.
 //req Request Cliente → Servidor → Manda informações para o servidor
 //res	Response	Servidor → Cliente	Envia resposta de volta ao cliente
-// listen=escutar --escutar a porta 3000
+// listen=escutar --escutar a porta
 // variaveis const geralmente tem o nome em maiusculo
 //mock - giria para mocar dados
 // [] - array
+// body - corpo
+
+// Query = pergunta/comando enviado ao banco de dados para obter ou manipular dados.
+
+
+
+     
+            // O que o async faz?
+                  //Quando você coloca async antes de uma função, ela automaticamente
+                  //Retorna uma Promise
+                  //Permite usar await dentro dela
+
+            // await
+                  //aguardar a resposta
+      
+
+            //MVC significa Model–View–Controller
+                  //É um padrão de arquitetura usado em projetos para organizar o código de forma limpa, separando responsabilidades.
+
+                              //Model (Modelo)
+                                    //Onde ficam os dados e as regras de negócio.
+                                    //Conecta com o banco de dados.
+                                    //Faz consultas, insert, update, delete.
+
+                              //View (Visão)
+                                    //O que o usuário vê.
+                                    //Pode ser HTML, js, React, ou até resposta JSON (em APIs).
+
+                              //Controller (Controlador)
+                                    //Recebe a requisição (req)
+                                    //Fala com o Model (banco)
+                                    //Decide qual View enviar de volta (res)
+
+
+
+// CRUD no Express
+      //C — Create (Criar)
+      //R — Read (Ler)
+      //U — Update (Atualizar)
+      //D — Delete (Excluir)
+
+            
+// row- significa linha em ingles
